@@ -1,7 +1,7 @@
 const botaoAbrir = document.getElementById('botao-abrir');
 const botaoFechar = document.getElementById('botao-fechar');
 const body = document.querySelector('body');
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.mobile');
 
 botaoAbrir.addEventListener('click', abrirMenu);
 
